@@ -1,38 +1,45 @@
-### Supported Algorithm
+## Frontend Masters: The Last Algorithms Course You'll Need
+Followed along with primeagen to finish the implementations, will potentially in the future recreate the data structures and algorithms on my own and the ones that weren't covered.
 
--   Insertion sort
--   Merge sort
--   QuickSort
--   Prim's MST (Adjacency List)
--   Dijkstra's Shortest Path (Adjacency List)
+### Completed Algorithms
 
-### Supported Data Structures
+- [x]   Insertion sort
+- [x]   Merge sort
+- [x]   QuickSort
+- [x]   Prim's MST (Adjacency List)
+- [x]   Dijkstra's Shortest Path (Adjacency List)
 
--   Singly linked list
--   Doubly linked list
--   Queue
--   Stack
--   Graph with Adjacency List
--   Graph with Adjacency Matrix (untested)
+### Completed Data Structures
 
-### How It Works
+- [x]   Singly linked list
+- [x]   Doubly linked list
+- [x]   Queue
+- [x]   Stack
+- [x]   Graph with Adjacency List
+- [x]   Graph with Adjacency Matrix (untested)
+
+### Running locally
 
 Make sure you have [Node.js](https://nodejs.org/en/) and yarn installed: `npm install --global yarn`
+
+*or you can use [Bun](https://bun.dev/)*
 
 clone the repo and install the dependencies
 
 ```bash
 yarn install
 ```
-
-create a day of katas, this will use the list in the `ligma.config.js`.
-
+*or*
 ```bash
-yarn generate
+bun install
 ```
 
 #### Testing
 
 ```
 npx jest <filename>
+```
+*or*
+```
+bunx jest <filename>
 ```
